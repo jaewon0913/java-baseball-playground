@@ -11,6 +11,9 @@ public class WriteAnswer {
 
         int writeNum = sc.nextInt();
 
+        //  TODO : 입력 값도 중복값 안되도록 해야함
+        //  TODO : 4자리 이상 입력 안되도록 해야함
+
         return String.valueOf(writeNum);
     }
 }
